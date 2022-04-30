@@ -1,0 +1,35 @@
+{
+  "name": "myntra-web-test-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Revanth-Munirathinam/myntra-web-test-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Revanth-Munirathinam/myntra-web-test-automation/issues"
+  },
+  "homepage": "https://github.com/Revanth-Munirathinam/myntra-web-test-automation#readme",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^7.19.5",
+    "@wdio/cli": "^7.19.2",
+    "@wdio/cucumber-framework": "^7.19.2",
+    "@wdio/local-runner": "^7.19.2",
+    "@wdio/selenium-standalone-service": "^7.19.1",
+    "@wdio/spec-reporter": "^7.19.1",
+    "wdio-wait-for": "^2.2.5",
+    "webdriverio": "5.12.4"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chai-visible": "^0.1.5",
+    "wdio-safaridriver-service": "^1.0.0"
+  }
+}
